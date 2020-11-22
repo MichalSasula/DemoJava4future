@@ -22,7 +22,7 @@ public class CourseEntity {
     @NotBlank
     private String title;
 
-    @Enumerated
+    @Enumerated(EnumType.STRING)
     private CourseCategory category;
 
     @Column(nullable = false)
@@ -33,7 +33,7 @@ public class CourseEntity {
     @NotBlank
     private String description;
 
-    @Enumerated
+    @Enumerated(EnumType.STRING)
     private ExperienceLevel experienceLevel;
 
     public CourseEntity() {
