@@ -1,5 +1,7 @@
 package com.java4future.java4future.entity;
 
+import com.java4future.java4future.entity.enums.ChessTitle;
+
 import javax.persistence.*;
 import javax.validation.constraints.NotBlank;
 import java.util.Objects;
@@ -20,7 +22,7 @@ public class UserEntity {
     private String email;
 
     @Enumerated
-    private Enum chessTitle;
+    private ChessTitle chessTitle;
 
 
 
@@ -55,7 +57,7 @@ public class UserEntity {
         this.email = email;
     }
 
-    public void setChessTitle(Enum chessTitle) {
+    public void setChessTitle(ChessTitle chessTitle) {
         this.chessTitle = chessTitle;
     }
 

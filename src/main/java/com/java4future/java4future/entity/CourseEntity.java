@@ -9,6 +9,7 @@ import javax.validation.constraints.NotNull;
 import java.util.Objects;
 
 @Entity
+@Table(name="COURSEENTITY")
 public class CourseEntity {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)

@@ -1,5 +1,27 @@
-insert into userdata values(101,'Tom');
-insert into userdata values(102,'Andrew');
-insert into userdata values(103,'Tony');
-insert into userdata values(104,'Bob');
-insert into userdata values(105,'Sam');
+DROP TABLE IF EXISTS COURSEENTITY;
+CREATE TABLE IF NOT EXISTS COURSEENTITY(
+    id BIGINT AUTO_INCREMENT PRIMARY KEY,
+    creatorId BIGINT NOT NULL,
+    title VARCHAR NOT NULL,
+    category VARCHAR NOT NULL,
+    price FLOAT NOT NULL,
+    description VARCHAR NOT NULL,
+    experienceLevel VARCHAR
+);
+--
+-- CREATE TABLE IF NOT EXISTS LessonEntity(
+--     id BIGINT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+--     courseId BIGINT NOT NULL,
+--     title VARCHAR NOT NULL,
+--     shortDescription VARCHAR NOT NULL,
+-- )
+--
+-- CREATE TABLE IF NOT EXISTS UserEntity(
+--     id BIGINT AUTO_INCREMENT PRIMARY KEY,
+--     userName VARCHAR NOT NULL,
+--     email VARCHAR NOT NULL,
+--     chessTitle
+-- )
+
+INSERT INTO COURSEENTITY VALUES(1, 2, 'Scotch opening', 'OPENING_FOR_WHITE', 123, 'nice course for white', 'BEGINNER');
+INSERT INTO COURSEENTITY VALUES(2, 2, 'Sicilian defense', 'OPENING_FOR_BLACKccc', 50, 'nice course for black', 'BEGINNER');

@@ -1,6 +1,7 @@
 package com.java4future.java4future.entity.enums;
 
 public enum ChessTitle {
+
     GM("Grandmaster"),
     IM("International master"),
     FM("FIDE Master"),
