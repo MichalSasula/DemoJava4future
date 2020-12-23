@@ -1,6 +1,6 @@
-package com.java4future.java4future.repository;
+package repository;
 
-import com.java4future.java4future.entity.LessonEntity;
+import entity.LessonEntity;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 public interface LessonRepository extends JpaRepository<LessonEntity, Long> {

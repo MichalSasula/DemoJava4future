@@ -1,6 +1,6 @@
-package com.java4future.java4future.entity;
+package entity;
 
-import com.java4future.java4future.entity.enums.ChessTitle;
+import entity.enums.ChessTitle;
 
 import javax.persistence.*;
 import javax.validation.constraints.NotBlank;

@@ -1,4 +1,4 @@
-package com.java4future.java4future.entity.enums;
+package entity.enums;
 
 public enum ChessTitle {
 

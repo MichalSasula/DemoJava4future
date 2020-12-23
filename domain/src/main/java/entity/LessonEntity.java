@@ -1,4 +1,4 @@
-package com.java4future.java4future.entity;
+package entity;
 
 import javax.persistence.*;
 import javax.validation.constraints.NotBlank;

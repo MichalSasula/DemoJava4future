@@ -1,6 +1,6 @@
-package com.java4future.java4future.repository;
+package repository;
 
-import com.java4future.java4future.entity.UserEntity;
+import entity.UserEntity;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 public interface UserRepository extends JpaRepository<UserEntity, Long> {

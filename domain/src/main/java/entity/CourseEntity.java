@@ -1,7 +1,7 @@
-package com.java4future.java4future.entity;
+package entity;
 
-import com.java4future.java4future.entity.enums.CourseCategory;
-import com.java4future.java4future.entity.enums.ExperienceLevel;
+import entity.enums.CourseCategory;
+import entity.enums.ExperienceLevel;
 
 import javax.persistence.*;
 import javax.validation.constraints.NotBlank;
